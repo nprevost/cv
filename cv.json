@@ -1,0 +1,244 @@
+{
+  "basics": {
+    "name": "Nicolas Prevost",
+    "label": "Développeur Web PHP / Symfony",
+    "image": "/me_avatar.jpg",
+    "email": "ni.prevost@gmail.com",
+    "phone": "",
+    "url": "https://github.com/nprevost",
+    "summary": "Professionnel de l'informatique expérimenté en développement web PHP / Symfony. Expérience auprès de diverses entreprises (Omnilog, Smile, Sykio) et récente montée en compétences en Data Science & Engineering.",
+    "theme": "default",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Bordeaux",
+      "countryCode": "FR",
+      "region": "Nouvelle-Aquitaine"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "nicolas-prevost-data758a144",
+        "url": "https://www.linkedin.com/in/nicolas-prevost-data758a144"
+      },
+      {
+        "network": "GitHub",
+        "username": "nprevost",
+        "url": "https://github.com/nprevost"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "OMNILOG SAS",
+      "position": "Ingénieur d'études",
+      "location_type": "On site",
+      "location": "Bordeaux, Aquitaine, France",
+      "url": "",
+      "startDate": "2018-01-01",
+      "endDate": "2024-04-30",
+      "summary": "Ingénieur d'études réalisant la maintenance, le développement de nouvelles fonctionnalités, la conception d'API REST et le développement d'applications métiers centralisées.",
+      "highlights": [
+        "Gestion de la TMA et duplication d'un système de suivi logistique pour Leroy Merlin",
+        "Maintenance corrective et évolutive du site fff.fr et création de sites intranet/internet",
+        "Développement d'une API REST de gestion centralisée des utilisateurs (CRUD) pour Banque Casino",
+        "Conception et développement d'une application web centralisée de calcul et gestion de taux"
+      ],
+      "responsibilities": [
+        "Duplication et paramétrage de socle technique logistique avec traduction d'interface et emails",
+        "Maintenance du site principal fff.fr et création d'outils intranet pour le personnel et les ligues",
+        "Définition des endpoints, schémas de données, sécurité et optimisation d'API REST",
+        "Conception UX/UI et traduction de règles de calcul complexes en logique algorithmique"
+      ],
+      "achievements": [],
+      "skills": [
+        "PHP",
+        "Symfony",
+        "API REST",
+        "Docker",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Smile Open Source Solutions",
+      "position": "Ingénieur d'études",
+      "location_type": "On site",
+      "location": "Bordeaux, Aquitaine, France",
+      "url": "",
+      "startDate": "2017-09-01",
+      "endDate": "2018-01-31",
+      "summary": "Gestion et résolution de tickets d'incidents et de demandes de changement.",
+      "highlights": [
+        "Correction de bugs et gestion du responsive mobile"
+      ],
+      "responsibilities": [
+        "Résolution des tickets via outils de gestion de projet",
+        "Optimisation de l'affichage responsive mobile"
+      ],
+      "achievements": [],
+      "skills": [
+        "PHP",
+        "HTML/CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "OMNILOG SA",
+      "position": "Développeur web",
+      "location_type": "On site",
+      "location": "Région de Paris, France",
+      "url": "",
+      "startDate": "2010-09-01",
+      "endDate": "2017-08-31",
+      "summary": "Développement web, maintenance applicative, écriture de procédures stockées PL/SQL et développement de modules/services e-commerce et abonnements.",
+      "highlights": [
+        "Maintenance et évolution du site fff.fr ainsi que création de sites intranet/internet",
+        "Création et optimisation de procédures stockées PL/SQL",
+        "Refontes graphiques front-end et refontes back-end (reporting, outils comptables, fusion Galerie Lafayette)",
+        "Développement de page de renouvellement de forfaits (J2EE) et module d'inscription entreprise"
+      ],
+      "responsibilities": [
+        "Écriture et modification de procédures stockées et fonctions PL/SQL",
+        "Conception et développement de nouvelles fonctionnalités back-end et reporting",
+        "Intégration avec les systèmes de gestion d'offres et d'abonnements"
+      ],
+      "achievements": [],
+      "skills": [
+        "PHP",
+        "PL/SQL",
+        "J2EE",
+        "JavaScript",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Sykio",
+      "position": "Développeur web",
+      "location_type": "On site",
+      "location": "Région de Paris, France",
+      "url": "",
+      "startDate": "2010-01-01",
+      "endDate": "2010-06-30",
+      "summary": "Développement de différents modules web.",
+      "highlights": [
+        "Développement de modules PHP/MySQL et JavaScript"
+      ],
+      "responsibilities": [
+        "Création et intégration de modules applicatifs web"
+      ],
+      "achievements": [],
+      "skills": [
+        "PHP",
+        "MySQL",
+        "JavaScript"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Jedha Bootcamp",
+      "url": "",
+      "area": "Data Science & Engineering FullStack",
+      "studyType": "Bootcamp",
+      "startDate": "2024-10-01",
+      "endDate": "2025-03-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "ESGI",
+      "url": "",
+      "area": "Programmation / Développeur informatique",
+      "studyType": "Master",
+      "startDate": "2007-01-01",
+      "endDate": "2010-01-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Saint-Gabriel",
+      "url": "",
+      "area": "Programmation / Développeur informatique",
+      "studyType": "BTS",
+      "startDate": "2005-01-01",
+      "endDate": "2007-01-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": "Advanced",
+      "keywords": [
+        "Databases",
+        "PL/SQL",
+        "Queries"
+      ]
+    },
+    {
+      "name": "Microsoft Power BI",
+      "level": "Intermediate",
+      "keywords": [
+        "Data Analysis",
+        "Business Intelligence",
+        "Reporting"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "Data Science",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps",
+        "Containerization"
+      ]
+    },
+    {
+      "name": "PySpark",
+      "level": "Intermediate",
+      "keywords": [
+        "Big Data",
+        "Data Processing"
+      ]
+    },
+    {
+      "name": "FastAPI",
+      "level": "Intermediate",
+      "keywords": [
+        "Python",
+        "API REST"
+      ]
+    },
+    {
+      "name": "PHP / Symfony",
+      "level": "Expert",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Framework"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
