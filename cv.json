@@ -2,12 +2,12 @@
   "basics": {
     "name": "Nicolas Prevost",
     "label": "Développeur Web PHP / Symfony",
-    "image": "/me_avatar.jpg",
+    "image": "me_avatar.jpg",
     "email": "ni.prevost@gmail.com",
     "phone": "",
     "url": "https://github.com/nprevost",
-    "summary": "Professionnel de l'informatique expérimenté en développement web PHP / Symfony. Expérience auprès de diverses entreprises (Omnilog, Smile, Sykio) et récente montée en compétences en Data Science & Engineering.",
-    "theme": "default",
+    "summary": "Développeur Back-End expérimenté passionné par l’écosystème PHP / Symfony et lesbonnes pratiques de développement (Clean Architecture, SOLID, TDD). Habitué auxenvironnements exigeants (FFF, Banque Casino, Shippeo), j'allie maîtrise dulegacy/refactoring et conception d'APIs robustes, sécurisées et performantes. Je mets unpoint d'honneur à transmettre les standards de qualité au sein de l'équipe.",
+    "theme": "blue",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,33 +30,104 @@
   },
   "work": [
     {
-      "name": "OMNILOG SAS",
+      "name": "OMNILOG SAS - Shippeo",
       "position": "Ingénieur d'études",
-      "location_type": "On site",
+      "location_type": "",
       "location": "Bordeaux, Aquitaine, France",
       "url": "",
-      "startDate": "2018-01-01",
+      "startDate": "2023-09-01",
       "endDate": "2024-04-30",
-      "summary": "Ingénieur d'études réalisant la maintenance, le développement de nouvelles fonctionnalités, la conception d'API REST et le développement d'applications métiers centralisées.",
-      "highlights": [
-        "Gestion de la TMA et duplication d'un système de suivi logistique pour Leroy Merlin",
-        "Maintenance corrective et évolutive du site fff.fr et création de sites intranet/internet",
-        "Développement d'une API REST de gestion centralisée des utilisateurs (CRUD) pour Banque Casino",
-        "Conception et développement d'une application web centralisée de calcul et gestion de taux"
-      ],
+      "summary": "Projet de TMA et d'évolution fonctionnelle de 10 mois sur l'application Shippeo, dédiée au suivi logistique de flottes de transports. Intervention axée sur l'adaptation d'un socle technique existant pour un grand compte de la distribution et l'internationalisation de l'interface utilisateur.",
       "responsibilities": [
-        "Duplication et paramétrage de socle technique logistique avec traduction d'interface et emails",
-        "Maintenance du site principal fff.fr et création d'outils intranet pour le personnel et les ligues",
-        "Définition des endpoints, schémas de données, sécurité et optimisation d'API REST",
-        "Conception UX/UI et traduction de règles de calcul complexes en logique algorithmique"
+        "TMA & Maintenance évolutive : Prise en charge des corrections, ajustements et optimisations applicatives au quotidien.",
+        "Déploiement & Adaptation métier : Duplication et paramétrage de la solution de suivi de flotte (issue du modèle Carrefour) pour répondre aux spécificités opérationnelles de Leroy Merlin.",
+        "Internationalisation & UX : Implémentation du système de traduction multilingue sur l'interface utilisateur (gestion des causes et motifs) ainsi que dans les notifications email automatisées."
       ],
-      "achievements": [],
       "skills": [
         "PHP",
         "Symfony",
         "API REST",
         "Docker",
-        "SQL"
+        "SQL",
+        "Git",
+        "CI/CD",
+        "Jira / Confluence"
+      ]
+    },
+    {
+      "name": "OMNILOG SAS - FFF",
+      "position": "Ingénieur d'études",
+      "location_type": "",
+      "location": "Bordeaux, Aquitaine, France",
+      "url": "",
+      "startDate": "2019-12-01",
+      "endDate": "2023-08-30",
+      "summary": "Maintenance corrective et évolutive du site fff.fr et créer/maintenir de nouveaux sites intranet (outils pour le personnel ou les ligues) et internet (sites événementiels ou thématiques).",
+      "responsibilities": [
+        "Définir l'architecture backend et les choix technologiques",
+        "Mettre en place des workflows GitOps"
+      ],
+      "skills": [
+        "PHP",
+        "Symfony",
+        "API REST",
+        "Docker",
+        "AWS",
+        "Git",
+        "CI/CD",
+        "Tailwind",
+        "Gestion de projet Agile",
+        "Jira / Confluence"
+      ]
+    },
+    {
+      "name": "OMNILOG SAS - Banque Casino",
+      "position": "Ingénieur d'études",
+      "location_type": "",
+      "location": "Bordeaux, Aquitaine, France",
+      "url": "",
+      "startDate": "2018-08-01",
+      "endDate": "2019-11-30",
+      "summary": "Développer une API REST dédiée à la gestion centralisée des utilisateurs (CRUD : Création, Consultation, Mise à jour, Suppression). Api permettant d'unifier l'accès et la manipulation des données utilisateur à travers divers parcours clients.",
+      "responsibilities": [
+        "Définition des endpoints et des schémas de données",
+        "Implémentation des couches de sécurité",
+        "Optimisation des performances pour assurer une haute disponibilité et des temps de réponse rapides pour les parcours critiques de la Banque Casino."
+      ],
+      "skills": [
+        "PHP",
+        "Symfony",
+        "API REST",
+        "Docker",
+        "Git",
+        "CI/CD",
+        "Gestion de projet Agile",
+        "VueJS",
+        "Jira / Confluence"
+      ]
+    },
+    {
+      "name": "OMNILOG SAS - Cetim",
+      "position": "Ingénieur d'études",
+      "location_type": "",
+      "location": "Bordeaux, Aquitaine, France",
+      "url": "",
+      "startDate": "2018-01-01",
+      "endDate": "2018-07-30",
+      "summary": "Concevoir et développer une application web centralisée destinée à sécuriser et automatiser le calcul et la gestion des différents taux, remplaçant ainsi le processus manuel sur tableur.",
+      "responsibilities": [
+        "Conception UX/UI : Élaboration du parcours utilisateur complet",
+        "Traduction des règles de calcul complexes et des barèmes réglementaires en logique algorithmique implémentée dans l'application",
+        "Implémentation des calculs critiques des taux"
+      ],
+      "skills": [
+        "PHP",
+        "Symfony",
+        "Git",
+        "CI/CD",
+        "Gestion de projet Agile",
+        "MySQL",
+        "Jira / Confluence"
       ]
     },
     {
@@ -67,48 +138,116 @@
       "url": "",
       "startDate": "2017-09-01",
       "endDate": "2018-01-31",
-      "summary": "Gestion et résolution de tickets d'incidents et de demandes de changement.",
-      "highlights": [
-        "Correction de bugs et gestion du responsive mobile"
-      ],
+      "summary": "Gestion et résolution des tickets d'incidents et de demandes de changement via des outils de gestion de projet pour Cultura.",
       "responsibilities": [
         "Résolution des tickets via outils de gestion de projet",
         "Optimisation de l'affichage responsive mobile"
       ],
-      "achievements": [],
       "skills": [
         "PHP",
         "HTML/CSS",
-        "JavaScript"
+        "JavaScript",
+        "Magento"
       ]
     },
     {
-      "name": "OMNILOG SA",
+      "name": "OMNILOG SA - FFF",
+      "position": "Développeur web",
+      "location_type": "On site",
+      "location": "Région de Paris, France",
+      "url": "",
+      "startDate": "2015-04-01",
+      "endDate": "2017-08-31",
+      "summary": "Maintenir l'intégrité et l'accessibilité du site principal (fff.fr) et créer/maintenir de nouveaux sites pour les besoins internes (intranet) et externes (internet)",
+      "responsibilities": [
+        "Maintenance corrective et évolutive du site fff.fr (gestion de contenu, affichage des résultats/classements, etc.)",
+        "Développement de nouveaux sites intranet (outils pour le personnel ou les ligues) et internet (sites événementiels ou thématiques)."
+      ],
+      "skills": [
+        "PHP",
+        "Symfony",
+        "API REST",
+        "Git",
+        "CI/CD",
+        "Jira / Confluence"
+      ]
+    },
+    {
+      "name": "OMNILOG SA - Téléshopping",
+      "position": "Développeur web",
+      "location_type": "On site",
+      "location": "Région de Paris, France",
+      "url": "",
+      "startDate": "2015-02-01",
+      "endDate": "2015-03-31",
+      "summary": "Assurer le bon fonctionnement des procédures stockées et optimiser l'accès aux données pour les applications métier.",
+      "responsibilities": [
+        "Écriture, modification et optimisation de procédures stockées et de fonctions en PL/SQL."
+      ],
+      "skills": [
+        "PL/SQL"
+      ]
+    },
+    {
+      "name": "OMNILOG SA - 1001 Listes",
+      "position": "Développeur web",
+      "location_type": "On site",
+      "location": "Région de Paris, France",
+      "url": "",
+      "startDate": "2011-04-01",
+      "endDate": "2015-01-31",
+      "summary": "Assurer la stabilité et l'évolution constante du site (maintenance corrective et évolutive), et créer de nouveaux services pour enrichir l'offre utilisateur.",
+      "responsibilities": [
+        "Maintenance et optimisation du code existant",
+        "Plusieurs refontes graphiques du frontend",
+        "Conception et développement de nouvelles fonctionnalités dans le back : Ajout d'un reporting, Outlis comptables",
+        "Tests et déploiements réguliers",
+        "Fusion avec le site galerie Lafayette"
+      ],
+      "skills": [
+        "PHP",
+        "MySQL",
+        "Zend Framework",
+        "jQuery",
+        "Git",
+        "Jira / Confluence"
+      ]
+    },
+    {
+      "name": "OMNILOG SA - Bouygues Telecom",
+      "position": "Développeur web",
+      "location_type": "On site",
+      "location": "Région de Paris, France",
+      "url": "",
+      "startDate": "2010-11-01",
+      "endDate": "2010-12-31",
+      "summary": "Concevoir et développer une nouvelle page dédiée au renouvellement des forfaits pour les abonnés existants.",
+      "responsibilities": [
+        "Développement de l'interface et de la logique métier de la page de renouvellement",
+        "Intégration avec les systèmes de gestion des offres et des abonnements"
+      ],
+      "skills": [
+        "J2EE"
+      ]
+    },
+    {
+      "name": "OMNILOG SA -  Paypal",
       "position": "Développeur web",
       "location_type": "On site",
       "location": "Région de Paris, France",
       "url": "",
       "startDate": "2010-09-01",
-      "endDate": "2017-08-31",
-      "summary": "Développement web, maintenance applicative, écriture de procédures stockées PL/SQL et développement de modules/services e-commerce et abonnements.",
-      "highlights": [
-        "Maintenance et évolution du site fff.fr ainsi que création de sites intranet/internet",
-        "Création et optimisation de procédures stockées PL/SQL",
-        "Refontes graphiques front-end et refontes back-end (reporting, outils comptables, fusion Galerie Lafayette)",
-        "Développement de page de renouvellement de forfaits (J2EE) et module d'inscription entreprise"
-      ],
+      "endDate": "2010-10-31",
+      "summary": "Développer un nouveau module d'inscription optimisé pour améliorer l'expérience utilisateur et l'acquisition de nouveaux clients entreprises.",
       "responsibilities": [
-        "Écriture et modification de procédures stockées et fonctions PL/SQL",
-        "Conception et développement de nouvelles fonctionnalités back-end et reporting",
-        "Intégration avec les systèmes de gestion d'offres et d'abonnements"
+        "Développement du module d'inscription en respectant les spécifications fonctionnelles et techniques",
+        "Intégration des formulaires et de la logique de validation côté serveur"
       ],
-      "achievements": [],
       "skills": [
         "PHP",
-        "PL/SQL",
-        "J2EE",
-        "JavaScript",
-        "MySQL"
+        "Zend Framework",
+        "jQuery",
+        "Git"
       ]
     },
     {
@@ -120,9 +259,6 @@
       "startDate": "2010-01-01",
       "endDate": "2010-06-30",
       "summary": "Développement de différents modules web.",
-      "highlights": [
-        "Développement de modules PHP/MySQL et JavaScript"
-      ],
       "responsibilities": [
         "Création et intégration de modules applicatifs web"
       ],
@@ -170,71 +306,37 @@
   "certificates": [],
   "skills": [
     {
-      "name": "SQL",
-      "level": "Advanced",
-      "keywords": [
-        "Databases",
-        "PL/SQL",
-        "Queries"
-      ]
+      "name": "PHP / Symfony"
     },
     {
-      "name": "Microsoft Power BI",
-      "level": "Intermediate",
-      "keywords": [
-        "Data Analysis",
-        "Business Intelligence",
-        "Reporting"
-      ]
+      "name": "SQL"
     },
     {
-      "name": "Git",
-      "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "Collaboration"
-      ]
+      "name": "Git"
     },
     {
-      "name": "Python",
-      "level": "Intermediate",
-      "keywords": [
-        "Data Science",
-        "Backend"
-      ]
+      "name": "Python"
     },
     {
-      "name": "Docker",
-      "level": "Intermediate",
-      "keywords": [
-        "DevOps",
-        "Containerization"
-      ]
+      "name": "Docker"
     },
     {
-      "name": "PySpark",
-      "level": "Intermediate",
-      "keywords": [
-        "Big Data",
-        "Data Processing"
-      ]
+      "name": "Gestion de projet"
     },
     {
-      "name": "FastAPI",
-      "level": "Intermediate",
-      "keywords": [
-        "Python",
-        "API REST"
-      ]
+      "name": "Jira / Confluence"
     },
     {
-      "name": "PHP / Symfony",
-      "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Framework"
-      ]
+      "name": "AWS"
+    },
+    {
+      "name": "PySpark"
+    },
+    {
+      "name": "FastAPI"
+    },
+    {
+      "name": "Microsoft Power BI"
     }
   ],
   "languages": [],
